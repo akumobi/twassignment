@@ -8,6 +8,22 @@
     <title>TailwindCSS Assignment | Product Page</title>
 </head>
 <body>
+    <header>
+        <nav class="bg-gray-950 p-3">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center">
+                    <div class="text-white text-lg font-extrabold">My Product Page</div>
+                    <ul class="hidden md:flex space-x-4 text-white">
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="active:bg-white active:text-black"><a href="./product.html">Product Page</a></li>
+                        <li><a href="./1pagesite.html">Single page site</a></li>
+                        <li><a href="./navbar.html">Nav Bar</a></li>
+                    </ul>
+                    <button class="md:hidden text-white">Menu</button>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="max-w-sm mx-auto mt-20">
         <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img src="./product.jpg" alt="Book flipping open" class="w-full h-64">
